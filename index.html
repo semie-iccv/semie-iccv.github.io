@@ -66,7 +66,7 @@
             <span class="author-block"><sup>2</sup>Adobe Research</span> &nbsp;
             <span class="author-block"><sup>3</sup>Triomics</span>&nbsp; 
           </div>
-          <p> Accepted in ICCV 2021 </p>
+	  <div class="is-size-5 publication-authors"> <b> Accepted in ICCV 2021 </b> </div>
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
@@ -76,20 +76,10 @@
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
 
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href = "#my_video"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <a onclick = "CodeAlert()"
@@ -110,10 +100,8 @@
 
 <section class="hero teaser">
       <div class = "container"> 
-      <img src = "./static/images/fig1.png">
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">SemIE can extrapolate your images.</span> 
-      </h2>
+      <img src = "./static/images/fig1.svg">
+      <h6 align=center>Dotted white rectangle refers to the input image.  Our method not only extrapolates the objects present in the input but also generates new objects (blue bounding boxes) while maintaining the texture consistency.</h6>
     </div>
 </section>
 
@@ -148,6 +136,14 @@
     <!--/ Abstract. -->
 </section>
 
+<section class="hero teaser">
+      <div class = "container"> 
+      <h2 align=center class="title is-3">Results</h2>
+      <img src="./static/images/fig2.svg" width="570px"></img ><br>
+      <img src="./static/images/fig3.svg" width="570px"></img >
+    </div>
+</section>
+
 <section class="section" id = "my_video">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -165,7 +161,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-five-fifths">
-        <h2 class="title is-3">Brief Description of our method</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="container">
           <img src = "./static/images/fig3.png">
         </div>
@@ -175,7 +171,7 @@
 
 
 
-<section class="section" id="BibTeX">
+<!--<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{iccv2021SemIE
@@ -185,7 +181,7 @@
   year      = {2021},
 }</code></pre>
   </div>
-</section>
+</section>-->
 
 
 <footer class="footer">
@@ -194,7 +190,7 @@
       <div class="column is-8">
         <div class="content">
           <p>
-            Source code borrowed from <a
+            Source code for the webpage borrowed from <a
               href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
             
           </p>
